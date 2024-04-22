@@ -2,10 +2,38 @@
 <head>
     <title>RPG</title>
     <script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
+    <script src="/js/table.js"></script>
     <link href="/css/my.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <h1>RPG admin panel</h1>
+<h2>Accounts list:</h2>
 
+<div id="count-per-page"></div>
+
+<table id="table">
+    <tr id="header">
+        <th class="id">#</th>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Race</th>
+        <th>Profession</th>
+        <th>Level</th>
+        <th>Birthday</th>
+        <th>Banned</th>
+        <th class="edit">Edit</th>
+        <th class="delete">Delete</th>
+    </tr>
+</table>
+
+<div id="pagination" class="pagination">
+    <div>Pages:</div>
+</div>
+<h2>Save new account <img id="create-player" class="save-new-account" src="/img/save.png" alt="Save"/></h2>
+<div id="player-creation-form"></div>
+<script>
+
+</script>
 </body>
 </html>
